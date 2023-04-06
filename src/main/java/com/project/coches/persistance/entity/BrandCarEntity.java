@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "marca_coche")
-public class MarcaCocheEntity {
+public class BrandCarEntity {
 
     /**
      * Id de la marca

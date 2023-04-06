@@ -40,7 +40,7 @@ public class BrandCarController {
                     .body(iBrandCarService.save(brandCarPojoNew));
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                    .body(null);
+                    .build();
         }
     }
 }
